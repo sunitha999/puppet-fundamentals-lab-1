@@ -13,7 +13,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   
     puppetmaster.vm.hostname = "puppetmaster"
   
-    puppetmaster.vm.network "private_network", ip: "172.31.0.201"
+    puppetmaster.vm.network "private_network", ip: "192.168.1.104"
   
   end
   
